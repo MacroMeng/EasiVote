@@ -79,11 +79,6 @@ add_opt_tip  .pack(side="left",  padx=(10, 0), pady=10)
 add_opt_entry.pack(side="left",  padx=10     , pady=10, expand=True, fill="x")
 add_button   .pack(side="right", padx=(0, 10), pady=10)
 
-if __name__ == "__main__":
-    t = int(input("Test Adding>"))
-    for i in range(t):
-        add_opt_entry.insert(0, "Opt" + str(i))
-        on_add_opt()
 
 root.mainloop()
 
